@@ -15,11 +15,11 @@ export default function Home() {
     if (el.current) {
       typedInstance = new Typed(el.current, {
         strings: [
-          "Senior Ambassador",
+          "Microsoft Learn Student Ambassador",
           "GIS Developer",
           "Full Stack Developer",
+          "Poet",
           "AI & ML Enthusiast",
-          "3D Web GIS Builder",
         ],
         typeSpeed: 50,
         backSpeed: 50,
@@ -43,19 +43,19 @@ export default function Home() {
             And I&apos;m a <span ref={el} className="text"></span>
           </h3>
           <p className="description">
-            B.Tech CSE (AI &amp; ML) student and Microsoft Learn Senior Student Ambassador with hands-on experience as a GIS Developer and Full Stack Developer. Skilled in Cesium.js, JavaScript, React.js, Node.js, MongoDB, and Python, with projects in 3D Web GIS and computer vision (YOLOv8). I lead developer communities, host technical events, and build impactful digital products.
+            B.Tech CSE (AI &amp; ML) student and Senior Microsoft Learn Student Ambassador with hands-on experience as a GIS Developer and Full Stack Developer. Skilled in Cesium.js, JavaScript, React.js, Node.js, MongoDB, and Python, with projects in 3D Web GIS, computer vision (YOLOv8), and creative writing. I lead developer communities, host technical events, and build impactful digital products.
           </p>
 
           <div className="hero-focus">
             <span className="focus-label">Current focus</span>
-            <strong>Building GIS-driven applications, full-stack products, and developer community initiatives.</strong>
-            <p>Comfortable switching between spatial data design, web development, and leading tech events.</p>
+            <strong>Hosting community events, building GIS-driven applications, and creating meaningful work across tech and storytelling.</strong>
+            <p>Comfortable switching between spatial data design, full-stack development, public speaking, and poetry.</p>
           </div>
 
           <div className="hero-badges">
+            <span>Microsoft Learn Student Ambassador</span>
             <span>GIS Developer</span>
             <span>Full Stack Developer</span>
-            <span>Senior Ambassador</span>
           </div>
 
           <div className="hero-stats">
@@ -64,8 +64,8 @@ export default function Home() {
               <span>Technical events hosted</span>
             </div>
             <div>
-              <strong>3D</strong>
-              <span>Web GIS projects</span>
+              <strong>1</strong>
+              <span>Dev Days highlight event</span>
             </div>
             <div>
               <strong>6</strong>
@@ -100,7 +100,7 @@ export default function Home() {
               priority
             />
             <div className="portrait-caption">
-              <strong>Developer, host, and lifelong learner</strong>
+              <strong>Developer, host, poet, and lifelong learner</strong>
             </div>
           </div>
         </div>
@@ -108,18 +108,18 @@ export default function Home() {
 
       <div className="ticker" aria-hidden="true">
         <div className="ticker-track">
+          <span>Microsoft Learn</span>
           <span>GIS</span>
           <span>React</span>
           <span>Node.js</span>
           <span>Cesium.js</span>
-          <span>Python</span>
+          <span>Poetry</span>
           <span>AI &amp; ML</span>
-          <span>Community</span>
+          <span>Microsoft Learn</span>
           <span>GIS</span>
           <span>React</span>
           <span>Node.js</span>
-          <span>Cesium.js</span>
-          <span>Python</span>
+          <span>Poetry</span>
         </div>
       </div>
 
@@ -133,17 +133,20 @@ export default function Home() {
         <div className="about-content">
           <span className="section-tag">01 - About</span>
           <h2 className="heading">The <span>person</span> behind the projects</h2>
-          <h3>GIS Developer &amp; Full Stack Developer</h3>
+          <h3>Microsoft Learn Student Ambassador &amp; Full Stack Developer</h3>
           <p>
-            I&apos;m a B.Tech CSE (AI &amp; ML) student with a strong focus on full-stack development and geospatial technology. I also serve as a Microsoft Learn Senior Student Ambassador, where I help build learning communities and host technical events for students and developers.
+            I&apos;m a B.Tech CSE (AI &amp; ML) student with a strong focus on full-stack development and geospatial technology. As a Senior Microsoft Learn Student Ambassador, I have helped organize and lead technical events, mentor students, and build a learning-first developer community.
           </p>
           <p>
-            I began as a GIS Developer &amp; Full Stack Developer Intern at Geocyber Systems LLC and have gained hands-on experience delivering 3D web mapping applications, spatial visualization interfaces, and production-ready frontend solutions.
+            I began as a GIS Developer &amp; Full Stack Developer Intern at Geocyber Systems LLC and have gained hands-on experience delivering 3D web mapping applications, spatial visualization interfaces, and frontend solutions for real-world use cases.
+          </p>
+          <p>
+            Beyond tech, I write poems and have shared my work in projects like <strong>Amar Ujala</strong> and <strong>Mere Lafaz</strong>, reflecting my love for expression, creativity, and storytelling.
           </p>
 
           <div className="about-callout">
             <span>What I bring</span>
-            <p>A mix of technical execution, community leadership, and creative problem-solving across web, GIS, and AI domains.</p>
+            <p>A mix of technical execution, community leadership, public speaking, and creative thinking across web, GIS, and AI spaces.</p>
           </div>
 
           <div className="about-stats">
@@ -163,22 +166,22 @@ export default function Home() {
 
       <section className="showcase" id="showcase">
         <span className="section-tag">02 - Showcase</span>
-        <h2 className="heading">Experience, roles &amp; <span>recognition</span></h2>
+        <h2 className="heading">Events, roles &amp; <span>recognition</span></h2>
 
         <div className="showcase-section">
           <h3 className="sub-heading"><i className="bx bx-calendar-event"></i> Key Events</h3>
           <div className="showcase-grid">
             <div className="showcase-card">
               <div className="card-content">
-                <h4>GitHub Copilot Dev Days [IGNITE]</h4>
-                <p>Hosted at Microsoft Office, Gurugram with 300+ attendees and 1,500+ registrations, covering AI, Copilot, and developer productivity.</p>
+                <h4>Microsoft Learn Dev Days</h4>
+                <p>Hosted on 26 September 2026 with an enthusiastic audience, covering AI, developer learning, and community-driven innovation.</p>
                 <span className="badge">Host / Organizer</span>
               </div>
             </div>
             <div className="showcase-card">
               <div className="card-content">
-                <h4>AI and Copilot Summit, Gurugram</h4>
-                <p>Invited speaker delivering a session on AI and Copilot for the next generation of developers.</p>
+                <h4>Dev2Hack</h4>
+                <p>Spoke as a featured speaker, sharing insights on building in public, embracing AI, and navigating developer growth.</p>
                 <span className="badge">Speaker</span>
               </div>
             </div>
@@ -191,7 +194,7 @@ export default function Home() {
             <div className="cert-card">
               <i className="bx bxs-award"></i>
               <div>
-                <h4>Senior Student Ambassador</h4>
+                <h4>Senior Microsoft Learn Student Ambassador</h4>
                 <p>Microsoft Learn Student Ambassador Program | Ongoing</p>
               </div>
             </div>
@@ -210,13 +213,13 @@ export default function Home() {
           <div className="showcase-grid">
             <div className="award-box">
               <i className="bx bx-trophy award-icon"></i>
-              <h4>Hosted GitHub Copilot Dev Days</h4>
-              <p>Led end-to-end event execution with a large student audience and strong technical engagement.</p>
+              <h4>Microsoft Learn Dev Days</h4>
+              <p>Led event planning, coordination, and execution for a high-impact tech community gathering.</p>
             </div>
             <div className="award-box">
               <i className="bx bxs-medal award-icon"></i>
-              <h4>Speaker at AI &amp; Copilot Summit</h4>
-              <p>Presented on innovation and AI adoption for developer communities.</p>
+              <h4>Dev2Hack Speaker</h4>
+              <p>Shared ideas around AI, learning, and developer empowerment with an audience of learners and builders.</p>
             </div>
           </div>
         </div>
@@ -230,8 +233,8 @@ export default function Home() {
             <div className="testimonial-content">
               <i className="bx bxs-quote-left quote-icon"></i>
               <p>
-                Guided and supported throughout the planning and execution of the GitHub Copilot Dev Days event -
-                from logistics to high-level strategy.
+                Guided and supported throughout the planning and execution of the Microsoft Learn Dev Days event -
+                from logistics to strategy and community impact.
               </p>
               <div className="user-info">
                 <div className="avatar avatar-1">RP</div>
@@ -247,7 +250,7 @@ export default function Home() {
             <div className="testimonial-content">
               <i className="bx bxs-quote-left quote-icon"></i>
               <p>
-                Part of the expert panel at GitHub Copilot Dev Days [IGNITE], sharing insights on Voice AI opportunities and challenges in India.
+                Part of the expert panel at Dev2Hack, sharing ideas on AI, skills, and future-focused developer journeys.
               </p>
               <div className="user-info">
                 <div className="avatar avatar-2">SG</div>
@@ -315,7 +318,7 @@ export default function Home() {
             { label: "Event Hosting & Community Building", icon: "bx bx-group" },
             { label: "Public Speaking on AI & Copilot", icon: "bx bx-cog" },
             { label: "Python & Computer Vision", icon: "bx bx-camera" },
-            { label: "AI & ML Problem Solving", icon: "bx bx-brain" },
+            { label: "Poetry & Creative Writing", icon: "bx bx-pen" },
           ].map(({ label, icon }, index) => (
             <div key={index} className="expertise-box">
               <i className={icon}></i>
