@@ -15,7 +15,7 @@ export default function Home() {
     if (el.current) {
       typedInstance = new Typed(el.current, {
         strings: [
-          "Microsoft Learn Student Ambassador",
+          "Microsoft Student Ambassador",
           "GIS Developer",
           "Full Stack Developer",
           "Poet",
@@ -43,7 +43,7 @@ export default function Home() {
             And I&apos;m a <span ref={el} className="text"></span>
           </h3>
           <p className="description">
-            B.Tech CSE (AI &amp; ML) student and Senior Microsoft Learn Student Ambassador with hands-on experience as a GIS Developer and Full Stack Developer. Skilled in Cesium.js, JavaScript, React.js, Node.js, MongoDB, and Python, with projects in 3D Web GIS, computer vision (YOLOv8), and creative writing. I lead developer communities, host technical events, and build impactful digital products.
+            B.Tech CSE (AI &amp; ML) student and Microsoft Student Ambassador with hands-on experience as a GIS Developer and Full Stack Developer. Skilled in Cesium.js, JavaScript, React.js, Node.js, MongoDB, and Python, with projects in 3D Web GIS, computer vision (YOLOv8), and creative writing. I lead developer communities, host technical events, and build impactful digital products.
           </p>
 
           <div className="hero-focus">
@@ -53,7 +53,7 @@ export default function Home() {
           </div>
 
           <div className="hero-badges">
-            <span>Microsoft Learn Student Ambassador</span>
+            <span>Microsoft Student Ambassador</span>
             <span>GIS Developer</span>
             <span>Full Stack Developer</span>
           </div>
@@ -108,14 +108,14 @@ export default function Home() {
 
       <div className="ticker" aria-hidden="true">
         <div className="ticker-track">
-          <span>Microsoft Learn</span>
+          <span>Microsoft Student Ambassador</span>
           <span>GIS</span>
           <span>React</span>
           <span>Node.js</span>
           <span>Cesium.js</span>
           <span>Poetry</span>
           <span>AI &amp; ML</span>
-          <span>Microsoft Learn</span>
+          <span>Microsoft Student Ambassador</span>
           <span>GIS</span>
           <span>React</span>
           <span>Node.js</span>
@@ -133,9 +133,9 @@ export default function Home() {
         <div className="about-content">
           <span className="section-tag">01 - About</span>
           <h2 className="heading">The <span>person</span> behind the projects</h2>
-          <h3>Microsoft Learn Student Ambassador &amp; Full Stack Developer</h3>
+          <h3>Microsoft Student Ambassador &amp; Full Stack Developer</h3>
           <p>
-            I&apos;m a B.Tech CSE (AI &amp; ML) student with a strong focus on full-stack development and geospatial technology. As a Senior Microsoft Learn Student Ambassador, I have helped organize and lead technical events, mentor students, and build a learning-first developer community.
+            I&apos;m a B.Tech CSE (AI &amp; ML) student with a strong focus on full-stack development and geospatial technology. As a Microsoft Student Ambassador, I have helped organize and lead technical events, mentor students, and build a learning-first developer community.
           </p>
           <p>
             I began as a GIS Developer &amp; Full Stack Developer Intern at Geocyber Systems LLC and have gained hands-on experience delivering 3D web mapping applications, spatial visualization interfaces, and frontend solutions for real-world use cases.
@@ -173,7 +173,7 @@ export default function Home() {
           <div className="showcase-grid">
             <div className="showcase-card">
               <div className="card-content">
-                <h4>Microsoft Learn Dev Days</h4>
+                <h4>Dev Days</h4>
                 <p>Hosted on 26 September 2026 with an enthusiastic audience, covering AI, developer learning, and community-driven innovation.</p>
                 <span className="badge">Host / Organizer</span>
               </div>
@@ -194,8 +194,8 @@ export default function Home() {
             <div className="cert-card">
               <i className="bx bxs-award"></i>
               <div>
-                <h4>Senior Microsoft Learn Student Ambassador</h4>
-                <p>Microsoft Learn Student Ambassador Program | Ongoing</p>
+                <h4>Microsoft Student Ambassador</h4>
+                <p>Microsoft Student Ambassador Program | Ongoing</p>
               </div>
             </div>
             <div className="cert-card">
@@ -213,7 +213,7 @@ export default function Home() {
           <div className="showcase-grid">
             <div className="award-box">
               <i className="bx bx-trophy award-icon"></i>
-              <h4>Microsoft Learn Dev Days</h4>
+              <h4>Dev Days</h4>
               <p>Led event planning, coordination, and execution for a high-impact tech community gathering.</p>
             </div>
             <div className="award-box">
@@ -233,7 +233,7 @@ export default function Home() {
             <div className="testimonial-content">
               <i className="bx bxs-quote-left quote-icon"></i>
               <p>
-                Guided and supported throughout the planning and execution of the Microsoft Learn Dev Days event -
+                Guided and supported throughout the planning and execution of the Dev Days event -
                 from logistics to strategy and community impact.
               </p>
               <div className="user-info">
